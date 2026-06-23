@@ -4,23 +4,16 @@ import { useEffect, useState } from "react";
 import { MusicPlayer } from "./music";
 import {
   anim,
-  calendar,
   date,
-  envelop,
-  firstname,
   name,
   txt1,
-  txt1_1,
-  txt2,
   txt3,
   vazox1,
-  vazox2,
 } from "@/data/data";
 import { motion } from "framer-motion";
 import { Footer } from "./footer";
 import { Calendar } from "./Calendar";
 import { TimeBox } from "./TimeBox";
-import AttendanceGuests from "./RSVP";
 import { Program } from "./Program";
 
 export function Home() {
@@ -133,7 +126,7 @@ export function Home() {
           </div>
         </div>
 
-        <Calendar year={2026} month={8} highlightDay={8} />
+        <Calendar year={2026} month={7} highlightDay={7} />
 
         <Program />
 
@@ -141,7 +134,6 @@ export function Home() {
         <TimeBox />
 
 
-        <AttendanceGuests />
       </div>
       <Footer />
     </div>

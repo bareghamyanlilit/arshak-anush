@@ -47,9 +47,9 @@ const ProgramItem = ({ src, icon, time, title, address }:any) => {
         {time}
       </motion.p>
       <motion.h3 {...anim} className=" text-center text-4xl">{title}</motion.h3>
-      <motion.p {...anim} className="text-xl opacity-80">
+      {/* <motion.p {...anim} className="text-xl opacity-80">
         {address}
-      </motion.p>
+      </motion.p> */}
 
       <motion.a
         {...anim}

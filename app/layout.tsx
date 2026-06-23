@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "Էդմոնդ և Կարինե",
-  description: "Էդմոնդ և Կարինե",
+  title: "Արշակ և Անուշ",
+  description: "Արշակ և Անուշ",
   openGraph: {
-    title: "Էդմոնդի և Կարինեի հարսանեկան հրավիրատոմս",
+    title: "Արշակի և Անուշի հարսանեկան հրավիրատոմս",
     description: "Հարսանեկան հրավիրատոմս",
     url: "https://site-up-l014.vercel.app",
-    siteName: "Էդմոնդ և Կարինե",
+    siteName: "Արշակ և Անուշ",
     images: [
       {
         url: "/img1.jpg",
