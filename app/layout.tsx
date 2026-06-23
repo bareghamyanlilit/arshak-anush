@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     siteName: "Արշակ և Անուշ",
     images: [
       {
-        url: "https://arshak-anush.netlify.app/img1.jpg",
+        url: "https://arshak-anush.netlify.app/open.jpg",
         width: 1200,
         height: 630,
       },
