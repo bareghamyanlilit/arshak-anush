@@ -47,6 +47,11 @@ const ProgramItem = ({ src, icon, time, title, address }:any) => {
         {time}
       </motion.p>
       <motion.h3 {...anim} className=" text-center text-4xl">{title}</motion.h3>
+      {title === "Պսակադրություն" && (
+        <motion.p {...anim} className="text-xl opacity-80">
+          Գեղարդի վանք
+        </motion.p>
+      )}
       {/* <motion.p {...anim} className="text-xl opacity-80">
         {address}
       </motion.p> */}
