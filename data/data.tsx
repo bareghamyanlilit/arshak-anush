@@ -4,7 +4,7 @@ export const programImgs=['/ekexeci.jpg','/restoran.jpg']
 export const program = [
   {
     icon: <FaChurch />,
-    time: "13:00",
+    time: "14:30",
     title: "Պսակադրություն",
     address: "https://www.google.com/maps/place/4RR9%2B74+%D0%9C%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C+%D0%93%D0%B5%D0%B3%D0%B0%D1%80%D0%B4,+Mets+Gilanlar/@40.1403758,44.8173833,16z/data=!4m6!3m5!1s0x406aaead91206219:0x4003cbe690889756!8m2!3d40.1406875!4d44.8178125!16zL20vMDNudjBz?hl=ru&g_ep=Eg1tbF8yMDI2MDYxNF8wIOC7DCoASAJQAg%3D%3D",
   },
